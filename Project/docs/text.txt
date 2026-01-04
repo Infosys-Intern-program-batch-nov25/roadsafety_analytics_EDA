@@ -1,0 +1,45 @@
+Road Safety Analytics – Exploratory Data Analysis (EDA)
+------------------------------------------------------
+
+Project Overview:
+This project focuses on exploratory data analysis (EDA) of a large-scale road accident dataset
+to identify key patterns, trends, and risk factors contributing to traffic accidents.
+The analysis is implemented as an interactive Streamlit web application.
+
+Dataset:
+Source: US Accidents Dataset
+Records: Large-scale dataset (sampled/preprocessed as required)
+Key attributes include accident severity, time, location, weather conditions,
+road conditions, and visibility factors.
+
+Project Structure:
+- app.py                 : Main Streamlit application entry point
+- modules/               : Contains modular analysis components
+    - Home.py             : Project overview and dataset information
+    - Preprocessing.py   : Data cleaning, feature selection, and preprocessing steps
+    - Univariate_Analysis.py : Single-variable statistical analysis and visualizations
+    - Comparative_Analysis.py : Bivariate and comparative analysis
+    - Geospatial_Analysis.py  : Location-based accident analysis using maps
+    - Insights_and_Hypothesis.py : Hypothesis formulation and testing
+    - Key_Findings.py     : Summary of major insights and conclusions
+- data/                  : Contains raw and preprocessed CSV datasets
+- docs/                  : Project documentation and notes
+
+Objectives:
+1. Perform structured exploratory data analysis on road accident data.
+2. Analyze accident severity distribution across time, weather, and location.
+3. Identify significant variables influencing accident occurrence and severity.
+4. Visualize spatial accident patterns using geospatial analysis.
+5. Present insights through an interactive dashboard.
+
+Tools & Technologies:
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn, Plotly
+- Scikit-learn (for basic modeling where applicable)
+- Streamlit (for dashboard development)
+
+Outcome:
+The project provides meaningful insights into road safety patterns and demonstrates
+the use of modular Python programming and interactive data visualization for
+real-world data analysis tasks.

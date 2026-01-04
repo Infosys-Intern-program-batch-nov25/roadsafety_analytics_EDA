@@ -1,0 +1,13 @@
+# Road Safety Analytics – Project Dependencies
+# -------------------------------------------
+# This file lists all required Python packages
+# to run the Streamlit-based EDA dashboard.
+
+streamlit>=1.25.0        # Web application framework
+pandas>=2.0.0            # Data manipulation and analysis
+numpy>=1.24.0            # Numerical computations
+plotly>=5.14.0           # Interactive visualizations
+matplotlib>=3.7.0        # Static plotting library
+seaborn>=0.12.0          # Statistical data visualization
+scikit-learn>=1.3.0      # Machine learning utilities
+scipy>=1.11.0            # Scientific computing
