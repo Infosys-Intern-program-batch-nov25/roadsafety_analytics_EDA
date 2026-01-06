@@ -1,0 +1,64 @@
+RoadSafe Analytics:Road Accidents - Exploratory Data Analysis (EDA) 
+
+1.Project Overview :
+
+* This project, RoadSafe Analytics, focuses on performing Exploratory Data Analysis (EDA) on the US Accidents Dataset, which contains over 4 million road accident records. The project leverages Python-based data analysis and visualization techniques to extract meaningful insights that can support road safety awareness and policy recommendations.
+* To enhance usability and interpretability, the analysis results are presented through an interactive Streamlit dashboard.
+
+
+2.Project Objectives:
+
+The primary objectives of this project are:
+
+* To handle and preprocess a large real-world accident dataset
+
+* To explore accident frequency based on time, location, weather, and road conditions
+
+* To analyze accident severity using univariate and bivariate techniques
+
+* To visualize geographical accident patterns and hotspots
+
+* To derive actionable insights for road safety improvement
+
+* To document findings clearly for technical and non-technical audiences
+
+3.Dataset Description:
+
+Dataset Name: US Accidents Dataset
+Source: Kaggle
+Number of Records: Over 7 million
+Sample Used: 1 million records 
+
+4.Tools and Technologies Used:
+
+Python - Core programming language
+Pandas - Data loading and manipulation
+NumPy - Numerical computations
+Matplotlib - Plotting and visualization
+Seaborn	- Statistical data visualization
+Streamlit - dashboard development
+PyDeck - Geospatial visualization
+
+5.Project structure:
+
+RoadSafe_Analytics_US_Accidents/
+-app.py - Main Streamlit application
+-  data/
+  US_Accidents_March23.csv
+- analysis:
+ Dataset_Information.py- Dataset shape, columns, missing values, summary
+ Univariate_Analysis.py - Distribution analysis (Severity, Temperature, Visibility, Wind Speed)
+ Bivariate_Analysis.py - Severity vs Weather relationships
+ Geospatial_Analysis.py - Accident hotspot visualization using latitude & longitude
+ Insights_and_Hypothesis.py - Hypothesis formulation and testing
+ Key_Findings.py - Summary of major insights and conclusions
+
+
+6.Outcomes and Impact
+
+This project successfully demonstrates:
+
+* Effective handling of large real-world datasets
+* Application of EDA techniques to uncover meaningful patterns
+* Use of visualization to communicate complex insights clearly
+* Practical relevance of data analytics in road safety
