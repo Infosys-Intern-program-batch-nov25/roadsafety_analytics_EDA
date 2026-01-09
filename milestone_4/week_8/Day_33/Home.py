@@ -41,3 +41,5 @@ def run():
     st.write(f"Showing {len(filtered_df):,} accidents with severity >= {min_severity}")
 
     st.dataframe(filtered_df.head(10), use_container_width=True)
+
+
