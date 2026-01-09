@@ -24,7 +24,6 @@ This Dashboard displays three types of analysis
 Use the sidebar to navigate between analysis pages.
 """)
 
-
 # SAMPLE DATASET LOAD
 @st.cache_data
 def load_data():
