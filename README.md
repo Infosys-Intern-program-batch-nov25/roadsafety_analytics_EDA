@@ -1,47 +1,58 @@
 🚦 Road Safety Analytics – Exploratory Data Analysis (EDA)
 
-An interactive Streamlit-based data analysis dashboard for exploring large-scale road accident data.
-This project performs structured Exploratory Data Analysis (EDA) to uncover patterns, trends, and risk factors contributing to road accidents.
+An interactive Streamlit-based data analysis dashboard designed to explore large-scale road accident data and extract meaningful insights related to road safety.
 
-📌 Project Objectives
+🎯 Project Objectives
 
-Perform exploratory analysis on road accident data
+Perform exploratory data analysis (EDA) on road accident data
 
 Analyze accident severity and distribution across key variables
 
-Conduct univariate and bivariate statistical analysis
+Conduct univariate and bivariate analysis
 
 Visualize spatial accident patterns using geospatial plots
 
 Present insights through an interactive Streamlit dashboard
 
-📂 Project Structure
+📁 Project Structure
+
 Project/
-│── app.py                     # Main Streamlit application
-│── requirements.txt           # Project dependencies
-│
-├── data/
-│   └── US_Accidents_preprocessed.csv
-│
-├── modules/
-│   ├── Home.py
-│   ├── Preprocessing.py
-│   ├── Univariate_Analysis.py
-│   ├── Comparative_Analysis.py
-│   ├── Geospatial_Analysis.py
-│   ├── Insights_and_Hypothesis.py
-│   └── Key_Findings.py
-│
-├── docs/
-│   └── docs.txt               # Project documentation
 
-🗂 Dataset Information
+app.py – Main Streamlit application
 
-Dataset: US Road Accidents Dataset (preprocessed)
+requirements.txt – Project dependencies
+
+data/
+
+US_Accidents_preprocessed.csv – Preprocessed accident dataset
+
+modules/
+
+Home.py – Project overview and dataset information
+
+Preprocessing.py – Data cleaning and preprocessing
+
+Univariate_Analysis.py – Univariate statistical analysis
+
+Comparative_Analysis.py – Bivariate and comparative analysis
+
+Geospatial_Analysis.py – Spatial visualization of accidents
+
+Insights_and_Hypothesis.py – Hypothesis formulation and insights
+
+Key_Findings.py – Summary of key results
+
+docs/
+
+docs.txt – Project documentation
+
+📊 Dataset Information
+
+Dataset: US Road Accidents Dataset (Preprocessed)
 
 Type: Large-scale tabular dataset
 
-Key Attributes:
+Key Attributes
 
 Accident severity
 
@@ -51,47 +62,36 @@ Weather and visibility conditions
 
 Road characteristics
 
-Geographical coordinates
+Geographic coordinates
 
 Distance affected by accidents
 
-🧰 Tools & Technologies Used
+🧰 Tools & Technologies
 
 Python
 
-Streamlit – interactive dashboard
+Streamlit
 
-Pandas & NumPy – data processing
+Pandas, NumPy
 
-Matplotlib & Seaborn – statistical visualization
+Matplotlib, Seaborn
 
-Plotly – interactive plots
+Plotly
 
-Scikit-learn – basic modeling and preprocessing
+Scikit-learn
 
-SciPy – statistical analysis
+SciPy
 
-🚀 How to Run the Project (Step-by-Step)
-✅ Step 1: Clone or Download the Repository
-
-Using Git:
-
+🚀 How to Run the Project
+Step 1: Clone the Repository
 git clone https://github.com/<your-username>/roadsafety_analytics_EDA.git
 
+Step 2: Navigate to the Project Folder
+cd roadsafety_analytics_EDA/Project
 
-Or download the ZIP from GitHub and extract it.
-
-✅ Step 2: Open the Project in VS Code
-
-Open only the Project/ folder in VS Code:
-
-roadsafety_analytics_EDA-main/Project
-
-✅ Step 3: Create a Virtual Environment (Recommended)
+Step 3: Create and Activate Virtual Environment
 python -m venv venv
 
-
-Activate it:
 
 Windows
 
@@ -102,67 +102,31 @@ macOS / Linux
 
 source venv/bin/activate
 
-✅ Step 4: Install Dependencies
+Step 4: Install Dependencies
 pip install -r requirements.txt
 
-✅ Step 5: Verify Dataset Placement
-
-Ensure your CSV file is placed inside:
-
-Project/data/US_Accidents_preprocessed.csv
-
-
-The code uses relative paths, so no changes are required.
-
-✅ Step 6: Run the Streamlit App
-
-From inside the Project/ directory:
-
+Step 5: Run the Streamlit App
 streamlit run app.py
 
 
-Open your browser and navigate to:
-
+Open your browser and go to:
 http://localhost:8501
 
-📊 Features of the Dashboard
-
-Dataset overview and basic statistics
-
-Univariate analysis with histograms and KDE plots
-
-Bivariate and comparative analysis
-
-Geospatial visualization of accident locations
-
-Hypothesis formulation and insights
-
-Summary of key findings
-
-📈 Key Insights (Example)
+📌 Key Insights (Summary)
 
 Most accidents affect very short road distances
 
-Accident distance distribution is highly right-skewed
+Distance distribution is highly right-skewed
 
-Certain weather and visibility conditions correlate with higher severity
+Weather and visibility conditions influence accident severity
 
-Spatial clustering observed in urban and highway regions
-
-📝 Notes
-
-The project follows a modular architecture for maintainability
-
-Visualization parameters are tuned to handle large-scale skewed data
-
-Median-based statistics are preferred where outliers exist
+Spatial clustering is observed in urban and highway regions
 
 👨‍💻 Author
 
 Nirupam Mondal
 Data Analysis Internship Project
-Streamlit | Python | EDA
 
 📜 License
 
-This project is for academic and internship evaluation purposes.
+This project is intended for academic and internship evaluation purposes.
